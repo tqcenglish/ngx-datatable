@@ -37,6 +37,7 @@ import { DataTableColumnDirective } from '../columns';
           [sortAscendingIcon]="sortAscendingIcon"
           [sortDescendingIcon]="sortDescendingIcon"
           (sort)="onSort($event)"
+          [allRowsSelected]="allRowsSelected"
           (select)="select.emit($event)">
         </datatable-header-cell>
       </div>
