@@ -86,7 +86,7 @@ export class DataTableHeaderCellComponent {
 
   @HostBinding('attr.title')
   get name(): string {
-    return this.column.name || this.column.prop;
+    return ;
   }
 
   @HostBinding('style.minWidth.px')
