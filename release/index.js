@@ -4515,7 +4515,7 @@ var DataTableHeaderCellComponent = (function () {
     });
     Object.defineProperty(DataTableHeaderCellComponent.prototype, "name", {
         get: function () {
-            return this.column.name || this.column.prop;
+            return;
         },
         enumerable: true,
         configurable: true
