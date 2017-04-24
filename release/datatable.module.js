@@ -2,6 +2,7 @@
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 require('rxjs/add/observable/fromEvent');
+var forms_1 = require('@angular/forms');
 var components_1 = require('./components');
 var directives_1 = require('./directives');
 var NgxDatatableModule = (function () {
@@ -10,7 +11,8 @@ var NgxDatatableModule = (function () {
     NgxDatatableModule.decorators = [
         { type: core_1.NgModule, args: [{
                     imports: [
-                        common_1.CommonModule
+                        common_1.CommonModule,
+                        forms_1.FormsModule
                     ],
                     declarations: [
                         directives_1.VisibilityDirective,

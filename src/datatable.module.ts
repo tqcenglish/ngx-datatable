@@ -33,7 +33,8 @@ import {
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   declarations: [
     VisibilityDirective,

@@ -14,7 +14,7 @@ import { nextSortDir } from '../../utils';
         class="datatable-checkbox">
         <input 
           type="checkbox"
-          [attr.checked]="allRowsSelected"
+          [(ngModel)]="allRowsSelected" [ngModelOptions]="{standalone: true}"
           (change)="select.emit(!allRowsSelected)" 
         />
       </label>
