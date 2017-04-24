@@ -40,7 +40,7 @@ var DataTableHeaderCellComponent = (function () {
     });
     Object.defineProperty(DataTableHeaderCellComponent.prototype, "name", {
         get: function () {
-            return;
+            return this.column.name;
         },
         enumerable: true,
         configurable: true

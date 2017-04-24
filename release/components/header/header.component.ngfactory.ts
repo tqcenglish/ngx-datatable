@@ -243,7 +243,7 @@ class View_DataTableHeaderComponent2 extends import2.AppView<any> {
     super(View_DataTableHeaderComponent2,renderType_DataTableHeaderComponent,import7.ViewType.EMBEDDED,viewUtils,parentView,parentIndex,parentElement,import8.ChangeDetectorStatus.CheckAlways,declaredViewContainer);
   }
   createInternal(rootSelector:string):import9.ComponentRef<any> {
-    this._el_0 = import3.createRenderElement(this.renderer,(null as any),'datatable-header-cell',new import3.InlineArray8(6,'draggable','','long-press','','resizeable',''),(null as any));
+    this._el_0 = import3.createRenderElement(this.renderer,(null as any),'datatable-header-cell',new import3.InlineArray8(8,'draggable','','long-press','','resizeable','','title',''),(null as any));
     this.compView_0 = new import14.View_DataTableHeaderCellComponent0(this.viewUtils,this,0,this._el_0);
     this._DraggableDirective_0_3 = new import11.Wrapper_DraggableDirective(new import16.ElementRef(this._el_0));
     this._ResizeableDirective_0_4 = new import12.Wrapper_ResizeableDirective(new import16.ElementRef(this._el_0));
