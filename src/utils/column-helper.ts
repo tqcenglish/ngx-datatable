@@ -28,7 +28,7 @@ export function setColumnDefaults(columns: any[]) {
     }
 
     if(!column.hasOwnProperty('resizeable')) {
-      column.resizeable = true;
+      column.resizeable = false;
     }
 
     if(!column.hasOwnProperty('sortable')) {
